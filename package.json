@@ -1,0 +1,23 @@
+{
+  "name": "nevatrip_html_second",
+  "private": true,
+  "description": "Тестовое задание nevatrip_html_second",
+  "bugs": {
+    "url": "https://github.com/htmlacademy-javascript/1568235-keksobooking-23/issues"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.14",
+    "eslint": "7.18.0",
+    "eslint-config-htmlacademy": "4.0.2"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
+    "test": "eslint js/"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  }
+}
